@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jaikrishnaram.formhouse.com</title>
+  <meta name="description" content="jaikrishnaram.formhouse.com - Exclusive 100-acre private luxury farmhouse and agritourism sanctuary in the center of Hyderabad near HITEC City. 500-buffalo dairy sanctuary, private waterfalls, swimming pool, and flower meadows available for Saturday & Sunday lease at ₹5,00,000." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏰</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            estate: {
+              deep: '#052617',
+              green: '#0a4d2e',
+              light: '#167a48',
+              gold: '#d4af37',
+              cream: '#fcfbf7'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-[#fcfbf7] text-slate-800 antialiased selection:bg-[#d4af37] selection:text-[#052617]">
+
+  <!-- 1. TOP URGENCY & DEMAND TICKER -->
+  <div class="bg-gradient-to-r from-[#8b0000] via-[#052617] to-[#8b0000] text-[#f3e5ab] text-xs py-2 px-4 border-b border-[#d4af37]/30 flex flex-wrap items-center justify-between shadow-inner">
+    <div className="flex items-center gap-2 mx-auto sm:mx-0">
+      <span class="inline-block w-2.5 h-2.5 rounded-full bg-red-400 animate-ping mr-1"></span>
+      <span class="font-extrabold tracking-wide uppercase text-red-300">🔥 HIGH DEMAND ALERT:</span>
+      <span class="font-medium text-white">Weekend leases strictly limited to 1 exclusive group per weekend (Sat & Sun). Only 2 slots remaining this month!</span>
+    </div>
+    <div class="hidden md:flex items-center gap-6 text-xs text-slate-300">
+      <span class="text-amber-300 font-semibold">👁️ 14 VIP Groups currently viewing this estate</span>
+      <a href="tel:+919876543210" class="hover:text-white transition font-bold text-white">📞 VIP Concierge: +91 98765 43210</a>
+    </div>
+  </div>
+
+  <!-- 2. MAIN HEADER NAVIGATION -->
+  <header class="sticky top-0 z-50 bg-[#062c19]/95 backdrop-blur-md border-b border-white/10 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-[#d4af37] to-[#8c6b12] flex items-center justify-center text-[#052617] shadow-lg shadow-[#d4af37]/20 group-hover:scale-105 transition-transform text-xl font-black">
+          🏰
+        </div>
+        <div>
+          <span class="font-serif text-lg sm:text-xl font-black tracking-wide block text-white group-hover:text-[#f3e5ab] transition">
+            JAI KRISHNA RAM
+          </span>
+          <span class="text-[11px] tracking-wider text-[#d4af37] font-bold block lowercase">
+            jaikrishnaram.formhouse.com
+          </span>
+        </div>
+      </a>
+
+      <!-- Nav links -->
+      <nav class="hidden lg:flex items-center gap-5 text-sm font-medium text-slate-200">
+        <a href="#mmt-booking" class="text-amber-300 hover:text-white transition flex items-center gap-1.5 font-bold">
+          <span class="inline-block w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span> MMT Booking Engine
+        </a>
+        <a href="#about-100-acres" class="hover:text-[#d4af37] transition">The 100 Acres</a>
+        <a href="#cinematic-videos" class="text-cyan-300 hover:text-cyan-200 transition flex items-center gap-1 font-semibold">
+          <span class="inline-block w-2 h-2 rounded-full bg-cyan-400"></span> 4K Videos
+        </a>
+        <a href="#three-d-experience" class="hover:text-[#d4af37] transition">3D World Tour</a>
+        <a href="#buffalo-sanctuary" class="hover:text-[#d4af37] transition">500 Buffalos</a>
+        <a href="#gallery" class="hover:text-[#d4af37] transition">4K Gallery</a>
+        <a href="#weekend-lease" class="text-[#f3e5ab] hover:underline font-bold">₹5L Weekend Lease</a>
+      </nav>
+
+      <!-- Action CTAs -->
+      <div class="flex items-center gap-2.5">
+        <button id="btn-open-admin-dashboard" class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-xs font-bold text-slate-200 transition flex items-center gap-1.5 shadow" title="Open Farmhouse Booking & Revenue Management Dashboard">
+          <span>📊 Bookings Console</span>
+        </button>
+
+        <button class="btn-toggle-sound p-2.5 rounded-xl border text-xs flex items-center gap-2 transition bg-white/5 border-white/20 text-slate-300 hover:bg-white/10" title="Toggle Nature Soundscape (Waterfalls & Birds)">
+          <span class="sound-icon">🔈</span>
+          <span class="sound-wave hidden flex items-end h-3">
+            <span class="audio-wave-bar"></span>
+            <span class="audio-wave-bar"></span>
+            <span class="audio-wave-bar"></span>
+            <span class="audio-wave-bar"></span>
+          </span>
+          <span class="sound-text hidden sm:inline">Sound</span>
+        </button>
+
+        <a href="#mmt-booking" class="btn-gold px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold tracking-wide flex items-center gap-1.5 shadow-lg">
+          <span>Book on MMT</span>
+          <span>→</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- 3. HERO SECTION WITH VIDEO PREVIEW BADGE & PRESS AWARDS -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-[#062c19] via-[#083b22] to-[#041a0f] text-white py-16 lg:py-24">
+    <!-- Ambient Glows -->
+    <div class="absolute top-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-10 w-96 h-96 bg-[#d4af37]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Content -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full badge-dark-gold text-xs tracking-wider font-semibold">
+            <span class="w-2 h-2 rounded-full bg-[#d4af37] animate-ping"></span>
+            <span class="text-white font-bold">jaikrishnaram.formhouse.com</span> • Exclusive 100-Acre HITEC City Estate
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
+            Jai Krishna Ram <span class="text-gold-gradient">Farmhouse & 100 Acres</span> in HITEC City
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300 font-light leading-relaxed max-w-2xl">
+            Experience the ultimate private weekend escape: A palatial central farmhouse with private swimming pool & cascading rock waterfalls, 50-acre sanctuary with 500 buffalos, lush fodder fields, free-range poultry, and 25+ acres of blooming flower meadows.
+          </p>
+
+          <!-- Highlight Badges -->
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2">
+            <div class="p-3.5 rounded-xl bg-white/5 border border-[#d4af37]/30 backdrop-blur-sm">
+              <span class="text-xs text-[#d4af37] font-semibold block">Private Lease Rate</span>
+              <span class="text-xl font-black text-[#f3e5ab]">₹5,00,000</span>
+              <span class="text-[11px] text-emerald-400 block">Sat 10 AM – Sun 6 PM</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
+              <span class="text-xs text-slate-400 block">Dairy Sanctuary</span>
+              <span class="text-xl font-black text-white">500 Buffalos</span>
+              <span class="text-[11px] text-slate-300 block">Across 50 Acres</span>
+            </div>
+            <div class="p-3.5 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm col-span-2 sm:col-span-1">
+              <span class="text-xs text-slate-400 block">Estate Heart</span>
+              <span class="text-xl font-black text-white">Pool & Waterfalls</span>
+              <span class="text-[11px] text-cyan-300 block">Cascading Stone Rocks</span>
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#weekend-lease" class="btn-gold px-7 py-3.5 rounded-xl font-bold text-sm tracking-wide flex items-center gap-2 shadow-xl">
+              <span>Reserve Weekend for ₹5 Lakhs</span>
+              <span>→</span>
+            </a>
+            
+            <button data-video-id="v-drone" class="px-6 py-3.5 rounded-xl bg-red-600 hover:bg-red-700 text-white font-bold text-sm tracking-wide transition flex items-center gap-2 shadow-lg shadow-red-600/30 group">
+              <span class="w-5 h-5 rounded-full bg-white text-red-600 flex items-center justify-center text-xs font-black group-hover:scale-110 transition">▶</span>
+              <span>Watch 4K Drone Film</span>
+            </button>
+
+            <a href="#three-d-experience" class="px-5 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 border border-white/20 text-white font-semibold text-sm tracking-wide transition flex items-center gap-2 backdrop-blur-sm">
+              <span>Launch 3D Explorer</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Video Hero Poster -->
+        <div class="lg:col-span-5">
+          <div data-video-id="v-drone" class="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-[#d4af37]/40 group cursor-pointer">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" alt="Jai Krishna Ram Farmhouse" class="w-full h-[450px] object-cover group-hover:scale-108 transition-transform duration-700" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#052617] via-black/30 to-black/30 group-hover:via-black/20 transition-all"></div>
+
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+              <div class="w-20 h-20 rounded-full bg-[#d4af37] text-[#052617] flex items-center justify-center text-2xl font-black shadow-2xl group-hover:scale-115 transition-transform duration-300 pulse-water">
+                ▶
+              </div>
+              <span class="mt-3 text-xs uppercase tracking-widest font-extrabold text-[#f3e5ab] bg-black/60 px-4 py-1.5 rounded-full border border-white/20 backdrop-blur-md">
+                Click to Play 4K Video Tour
+              </span>
+            </div>
+
+            <div class="absolute bottom-5 left-5 right-5 p-4 rounded-xl glass-dark border border-[#d4af37]/30 text-white">
+              <div class="flex items-center justify-between mb-1">
+                <span class="badge-dark-gold px-2.5 py-0.5 rounded-md text-[11px] font-semibold">
+                  CENTRAL VILLA OASIS
+                </span>
+                <span class="text-xs text-emerald-300 font-medium flex items-center gap-1">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span> 24/7 Security
+                </span>
+              </div>
+              <h3 class="font-serif text-lg font-bold text-white">Central Luxury Farmhouse</h3>
+              <p class="text-xs text-slate-300 mt-0.5">
+                Private pool, rock waterfalls, paved roads, and 500-buffalo dairy sanctuary.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PRESS & AWARDS -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pt-8 border-t border-white/10">
+      <div class="text-center text-xs uppercase tracking-widest text-[#d4af37] font-bold mb-6">
+        Recognized by Top Tourism & Architecture Bodies
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 text-center backdrop-blur-sm">
+          <span class="text-2xl block mb-1">🏆</span>
+          <span class="text-xs font-bold text-white block">Telangana Tourism Excellence</span>
+          <span class="text-[11px] text-slate-300 block mt-0.5">Best Luxury Agritourism Estate 2026</span>
+        </div>
+        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 text-center backdrop-blur-sm">
+          <span class="text-2xl block mb-1">⭐</span>
+          <span class="text-xs font-bold text-white block">Architectural Highlights</span>
+          <span class="text-[11px] text-slate-300 block mt-0.5">Top 10 Private Weekend Retreats in South India</span>
+        </div>
+        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 text-center backdrop-blur-sm">
+          <span class="text-2xl block mb-1">💼</span>
+          <span class="text-xs font-bold text-white block">HITEC City CXO Forum</span>
+          <span class="text-[11px] text-slate-300 block mt-0.5">#1 Choice for Executive Corporate Offsites</span>
+        </div>
+        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 text-center backdrop-blur-sm">
+          <span class="text-2xl block mb-1">💍</span>
+          <span class="text-xs font-bold text-white block">WedMeGood Elite</span>
+          <span class="text-[11px] text-slate-300 block mt-0.5">Most Scenic Pre-Wedding Destination</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- STATS STRIP -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
+        <div class="p-3">
+          <div class="text-2xl sm:text-3xl font-extrabold text-[#f3e5ab] font-serif">100 Acres</div>
+          <div class="text-xs font-bold text-white uppercase tracking-wider mt-1">Total Estate</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">Prime heart of HITEC City</div>
+        </div>
+        <div class="p-3">
+          <div class="text-2xl sm:text-3xl font-extrabold text-[#f3e5ab] font-serif">500 Buffalos</div>
+          <div class="text-xs font-bold text-white uppercase tracking-wider mt-1">Dairy Sanctuary</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">50 acres dedicated modern dairy</div>
+        </div>
+        <div class="p-3">
+          <div class="text-2xl sm:text-3xl font-extrabold text-[#f3e5ab] font-serif">10 Acres</div>
+          <div class="text-xs font-bold text-white uppercase tracking-wider mt-1">Lush Fodder Grass</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">Nutrient-rich organic pasture</div>
+        </div>
+        <div class="p-3">
+          <div class="text-2xl sm:text-3xl font-extrabold text-[#f3e5ab] font-serif">10 Acres</div>
+          <div class="text-xs font-bold text-white uppercase tracking-wider mt-1">Poultry Farming</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">State-of-the-art sheds & hens</div>
+        </div>
+        <div class="p-3">
+          <div class="text-2xl sm:text-3xl font-extrabold text-[#f3e5ab] font-serif">25+ Acres</div>
+          <div class="text-xs font-bold text-white uppercase tracking-wider mt-1">Exotic Floriculture</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">Multi-colored blooming flower fields</div>
+        </div>
+        <div class="p-3">
+          <div class="text-2xl sm:text-3xl font-extrabold text-[#f3e5ab] font-serif">₹5 Lakhs</div>
+          <div class="text-xs font-bold text-white uppercase tracking-wider mt-1">Weekend Lease</div>
+          <div class="text-[11px] text-slate-400 mt-0.5">Sat & Sun full-estate private access</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </section>
+
+  <!-- 3.5. MAKEMYTRIP HYDERABAD RESORTS & FARMHOUSE BOOKING ENGINE -->
+  <section id="mmt-booking" class="py-20 bg-gradient-to-b from-[#fcfbf7] to-[#f4efe4] text-slate-800 relative border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- MakeMyTrip Header Badge -->
+      <div class="flex flex-wrap items-center justify-between gap-4 mb-8">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-red-600 to-rose-700 text-white flex items-center justify-center font-black text-xl shadow-lg shadow-red-600/20">
+            ✈️
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-black tracking-wider uppercase text-red-600">MAKEMYTRIP PREMIER</span>
+              <span class="text-slate-300">•</span>
+              <span class="text-xs font-bold text-slate-600">HYDERABAD RESORTS & FARMHOUSE PORTAL</span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl font-extrabold font-serif text-[#052617]">
+              Reserve Luxury Farmhouse Units & Weekend Leases
+            </h2>
+          </div>
+        </div>
+
+        <!-- Live Backend Indicator Pill -->
+        <div class="flex items-center gap-2">
+          <span id="mmt-backend-indicator" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800 border border-emerald-300 shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+            <span>Live Availability & Pricing Engine (Active)</span>
+          </span>
+          <button id="btn-dashboard-shortcut" class="px-3.5 py-1.5 rounded-xl bg-[#052617] text-[#f3e5ab] text-xs font-bold hover:bg-[#0a4d2e] transition shadow">
+            📊 View All Bookings
+          </button>
+        </div>
+      </div>
+
+      <!-- MAKEMYTRIP STYLE INTERACTIVE SEARCH & FILTER BAR -->
+      <div class="bg-white rounded-3xl p-5 sm:p-6 shadow-xl border border-slate-200 mb-12">
+        <form id="mmt-search-form" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 items-end">
+          
+          <!-- Destination -->
+          <div class="space-y-1">
+            <label class="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">DESTINATION / AREA</label>
+            <div class="p-3 bg-slate-50 border border-slate-200 rounded-2xl flex items-center gap-2.5 text-slate-900 font-semibold text-xs sm:text-sm">
+              <span class="text-red-500 text-base">📍</span>
+              <div class="truncate">
+                <span class="block font-bold">Hyderabad, Telangana</span>
+                <span class="text-[11px] text-slate-500 font-normal">Near HITEC City / Madhapur</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Check-in Date -->
+          <div class="space-y-1">
+            <label class="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">CHECK-IN (SATURDAY 10 AM)</label>
+            <div class="p-2.5 bg-slate-50 border border-slate-200 rounded-2xl flex items-center gap-2">
+              <span class="text-emerald-700 text-base">📅</span>
+              <input type="date" id="mmt-checkin-date" class="bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none w-full" />
+            </div>
+          </div>
+
+          <!-- Check-out Date -->
+          <div class="space-y-1">
+            <label class="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">CHECK-OUT (SUNDAY 06 PM)</label>
+            <div class="p-2.5 bg-slate-50 border border-slate-200 rounded-2xl flex items-center gap-2">
+              <span class="text-amber-600 text-base">🕒</span>
+              <input type="date" id="mmt-checkout-date" class="bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none w-full" />
+            </div>
+          </div>
+
+          <!-- Unit Category & Guests -->
+          <div class="space-y-1">
+            <label class="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">GUESTS & UNIT TYPE</label>
+            <div class="p-2 bg-slate-50 border border-slate-200 rounded-2xl">
+              <select id="mmt-unit-filter" class="w-full bg-transparent text-xs sm:text-sm font-bold text-slate-800 focus:outline-none">
+                <option value="ALL">All Units & Villas (4 Units)</option>
+                <option value="FULL_ESTATE" selected>100-Acre Buyout (₹5,00,000)</option>
+                <option value="PRIVATE_VILLA">Central Villa (₹85,000)</option>
+                <option value="POOL_PAVILION">Waterfall Suite (₹45,000)</option>
+                <option value="AGRI_COTTAGE">Dairy Cottage (₹25,000)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Search CTA -->
+          <div>
+            <button type="submit" class="w-full py-3.5 px-4 rounded-2xl bg-gradient-to-r from-red-600 via-rose-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-extrabold text-sm tracking-wide shadow-lg shadow-red-600/30 transition flex items-center justify-center gap-2">
+              <span>Search Rates</span>
+              <span>🔍</span>
+            </button>
+          </div>
+
+        </form>
+
+        <!-- Search Bar Quick Filters -->
+        <div class="flex flex-wrap items-center justify-between gap-4 pt-4 mt-4 border-t border-slate-100 text-xs">
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-slate-500 font-medium">Quick Filters:</span>
+            <button class="mmt-quick-pill px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold transition active" data-filter="ALL">All Accommodations</button>
+            <button class="mmt-quick-pill px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold transition" data-filter="POOL">Private Heated Pool</button>
+            <button class="mmt-quick-pill px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold transition" data-filter="BUFFALO">500 Buffalos Agritourism</button>
+            <button class="mmt-quick-pill px-3 py-1 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold transition" data-filter="WATERFALL">Rock Waterfalls</button>
+          </div>
+
+          <!-- Promo Coupon Hint -->
+          <div class="flex items-center gap-1.5 bg-amber-50 px-3 py-1 rounded-full border border-amber-200 text-amber-900 font-bold text-[11px]">
+            <span>🎟️ Coupon:</span>
+            <code class="text-red-700 font-black cursor-pointer" id="btn-quick-coupon-top">MMTHYD2026</code>
+            <span class="text-slate-500">(10% OFF)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAKEMYTRIP RESORTS INVENTORY LISTING CARDS -->
+      <div id="mmt-inventory-container" class="space-y-6">
+        
+        <!-- Card 1: Flagship 100-Acre Buyout -->
+        <div class="mmt-resort-card bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-[#d4af37] shadow-lg hover:shadow-2xl transition duration-300 grid lg:grid-cols-12 gap-0" data-unit-type="FULL_ESTATE">
+          <!-- Image Gallery Col -->
+          <div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" alt="100-Acre Sanctuary" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-[#052617]/90 text-[#f3e5ab] text-xs font-black px-3 py-1 rounded-full backdrop-blur-sm border border-[#d4af37]/40 shadow">
+              👑 FLAGSHIP • 100 ACRES PRIVATE
+            </div>
+            <div class="absolute top-4 right-4 bg-white/95 text-slate-900 text-xs font-black px-2.5 py-1 rounded-lg shadow flex items-center gap-1">
+              <span class="text-amber-500">★</span> 4.95 / 5.0 (1,420 Reviews)
+            </div>
+            <div class="absolute bottom-4 left-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-xl text-white text-[11px] flex justify-between items-center">
+              <span>Strictly 1 Group Per Weekend</span>
+              <span class="text-emerald-400 font-bold">✓ Free Valet & Golf Carts</span>
+            </div>
+          </div>
+
+          <!-- Middle Details Col -->
+          <div class="lg:col-span-4 p-6 sm:p-7 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-slate-100">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-extrabold uppercase">Full Estate Buyout</span>
+                <span class="text-xs text-slate-500">HITEC City Corridor (12 Mins)</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-[#052617] leading-snug">
+                100-Acre Private Sanctuary Exclusive Weekend Lease
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                Complete exclusive takeover of all 100 acres. Includes central luxury villa, heated swimming pool, rock waterfalls, 50-acre buffalo sanctuary with 500 buffalos, and 25-acre flower valleys.
+              </p>
+              
+              <div class="flex flex-wrap gap-1.5 pt-2">
+                <span class="badge-dark-gold px-2.5 py-1 rounded-lg text-[10px] font-bold">Cascading Waterfalls</span>
+                <span class="badge-dark-gold px-2.5 py-1 rounded-lg text-[10px] font-bold">500 Buffalos Safari</span>
+                <span class="badge-dark-gold px-2.5 py-1 rounded-lg text-[10px] font-bold">Heated Pool</span>
+                <span class="badge-dark-gold px-2.5 py-1 rounded-lg text-[10px] font-bold">24/7 Armed Security</span>
+              </div>
+            </div>
+
+            <div class="pt-4 text-xs text-emerald-700 font-semibold space-y-1">
+              <div>✓ Saturday 10:00 AM check-in to Sunday 06:00 PM check-out (32 Hours)</div>
+              <div>✓ Complimentary Organic A2 Dairy Milk & Paneer Tasting</div>
+            </div>
+          </div>
+
+          <!-- Right Pricing & CTA Col -->
+          <div class="lg:col-span-3 p-6 sm:p-7 bg-slate-50/70 flex flex-col justify-between">
+            <div class="space-y-2 text-right">
+              <span class="text-[11px] text-slate-500 block uppercase font-bold">MakeMyTrip Exclusive Rate</span>
+              <div class="space-y-0.5">
+                <span class="text-xs text-slate-400 line-through">₹5,50,000</span>
+                <div class="text-3xl font-black text-[#052617] font-serif">₹5,00,000</div>
+                <span class="text-[11px] text-slate-500 block">+ ₹90,000 taxes & fees (18% GST)</span>
+              </div>
+
+              <!-- MMT Discount Tag -->
+              <div class="bg-red-50 text-red-700 p-2 rounded-xl border border-red-200 text-left text-[11px] space-y-0.5">
+                <span class="font-extrabold block">Coupon: MMTHYD2026</span>
+                <span class="text-slate-600 block">Get flat 10% instant discount (Save ₹50,000)!</span>
+              </div>
+            </div>
+
+            <div class="pt-6 space-y-2">
+              <button class="btn-book-unit w-full py-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-extrabold text-sm shadow-xl shadow-red-600/30 transition flex items-center justify-center gap-2"
+                      data-unit-id="villa-100-acres-full"
+                      data-unit-name="100-Acre Private Sanctuary Full Estate Buyout"
+                      data-unit-price="500000"
+                      data-unit-type="FULL_ESTATE">
+                <span>Book on MakeMyTrip</span>
+                <span>→</span>
+              </button>
+              <button class="btn-view-unit-details w-full py-2 rounded-xl bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 font-bold text-xs transition"
+                      data-unit-id="villa-100-acres-full">
+                View Inclusions & Plan
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Central Presidential Villa -->
+        <div class="mmt-resort-card bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-[#d4af37] shadow-lg hover:shadow-2xl transition duration-300 grid lg:grid-cols-12 gap-0" data-unit-type="PRIVATE_VILLA">
+          <div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80" alt="Presidential Villa" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-slate-900/90 text-white text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm border border-white/20">
+              4 BHK PALATIAL VILLA
+            </div>
+            <div class="absolute top-4 right-4 bg-white/95 text-slate-900 text-xs font-black px-2.5 py-1 rounded-lg shadow">
+              ★ 4.90 / 5.0 (520 Reviews)
+            </div>
+          </div>
+
+          <div class="lg:col-span-4 p-6 sm:p-7 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-slate-100">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-blue-100 text-blue-800 text-[10px] font-extrabold uppercase">Luxury Residence</span>
+                <span class="text-xs text-slate-500">Center of 100 Acres</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-[#052617] leading-snug">
+                Central Presidential Farmhouse Villa (4 BHK)
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                Palatial multi-level architectural mansion featuring heated swimming pool terrace, master jacuzzi suite, and grand dining lounge.
+              </p>
+              
+              <div class="flex flex-wrap gap-1.5 pt-2">
+                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-lg text-[10px] font-bold">Pool Terrace</span>
+                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-lg text-[10px] font-bold">Jacuzzi Suite</span>
+                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded-lg text-[10px] font-bold">12 Guests Capacity</span>
+              </div>
+            </div>
+
+            <div class="pt-4 text-xs text-emerald-700 font-semibold space-y-1">
+              <div>✓ Private pool access & poolside sound system</div>
+              <div>✓ Dedicated villa butler & housekeeping staff</div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-3 p-6 sm:p-7 bg-slate-50/70 flex flex-col justify-between">
+            <div class="space-y-2 text-right">
+              <span class="text-[11px] text-slate-500 block uppercase font-bold">Nightly Villa Rate</span>
+              <div class="space-y-0.5">
+                <span class="text-xs text-slate-400 line-through">₹95,000</span>
+                <div class="text-3xl font-black text-[#052617] font-serif">₹85,000</div>
+                <span class="text-[11px] text-slate-500 block">/ Night + 18% GST</span>
+              </div>
+            </div>
+
+            <div class="pt-6 space-y-2">
+              <button class="btn-book-unit w-full py-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-extrabold text-sm shadow-lg shadow-red-600/30 transition flex items-center justify-center gap-2"
+                      data-unit-id="villa-presidential"
+                      data-unit-name="Central Presidential Farmhouse Villa (4 BHK)"
+                      data-unit-price="85000"
+                      data-unit-type="PRIVATE_VILLA">
+                <span>Book on MakeMyTrip</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Cascading Waterfall Pool Pavilion -->
+        <div class="mmt-resort-card bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-[#d4af37] shadow-lg hover:shadow-2xl transition duration-300 grid lg:grid-cols-12 gap-0" data-unit-type="POOL_PAVILION">
+          <div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80" alt="Waterfall Suite" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-cyan-900/90 text-cyan-200 text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm border border-cyan-400/30">
+              WATERFALL FACING SUITE
+            </div>
+            <div class="absolute top-4 right-4 bg-white/95 text-slate-900 text-xs font-black px-2.5 py-1 rounded-lg shadow">
+              ★ 4.92 / 5.0 (380 Reviews)
+            </div>
+          </div>
+
+          <div class="lg:col-span-4 p-6 sm:p-7 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-slate-100">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-cyan-100 text-cyan-800 text-[10px] font-extrabold uppercase">Nature Pavilion</span>
+                <span class="text-xs text-slate-500">Direct Waterfall View</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-[#052617] leading-snug">
+                Cascading Waterfall Pool Pavilion
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                Glass-front suite facing the natural rock waterfalls. Wake up to soothing rushing water sounds and cooling mist lounges.
+              </p>
+            </div>
+
+            <div class="pt-4 text-xs text-emerald-700 font-semibold space-y-1">
+              <div>✓ Includes farm-to-table breakfast</div>
+              <div>✓ Private sundeck loungers & evening starlit lighting</div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-3 p-6 sm:p-7 bg-slate-50/70 flex flex-col justify-between">
+            <div class="space-y-2 text-right">
+              <span class="text-[11px] text-slate-500 block uppercase font-bold">Nightly Rate</span>
+              <div class="space-y-0.5">
+                <div class="text-3xl font-black text-[#052617] font-serif">₹45,000</div>
+                <span class="text-[11px] text-slate-500 block">/ Night + 18% GST</span>
+              </div>
+            </div>
+
+            <div class="pt-6 space-y-2">
+              <button class="btn-book-unit w-full py-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-extrabold text-sm shadow-lg shadow-red-600/30 transition flex items-center justify-center gap-2"
+                      data-unit-id="villa-waterfall-suite"
+                      data-unit-name="Cascading Waterfall Pool Pavilion"
+                      data-unit-price="45000"
+                      data-unit-type="POOL_PAVILION">
+                <span>Book on MakeMyTrip</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Buffalo Sanctuary Cottage -->
+        <div class="mmt-resort-card bg-white rounded-3xl overflow-hidden border border-slate-200 hover:border-[#d4af37] shadow-lg hover:shadow-2xl transition duration-300 grid lg:grid-cols-12 gap-0" data-unit-type="AGRI_COTTAGE">
+          <div class="lg:col-span-5 relative h-72 lg:h-auto overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80" alt="Dairy Cottage" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-emerald-900/90 text-emerald-200 text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm border border-emerald-400/30">
+              AGRITOURISM COTTAGE
+            </div>
+            <div class="absolute top-4 right-4 bg-white/95 text-slate-900 text-xs font-black px-2.5 py-1 rounded-lg shadow">
+              ★ 4.88 / 5.0 (290 Reviews)
+            </div>
+          </div>
+
+          <div class="lg:col-span-4 p-6 sm:p-7 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-slate-100">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 text-[10px] font-extrabold uppercase">Dairy Sanctuary Edge</span>
+                <span class="text-xs text-slate-500">50-Acre Pasture View</span>
+              </div>
+              <h3 class="font-serif text-2xl font-bold text-[#052617] leading-snug">
+                Buffalo Sanctuary Agritourism Cottage
+              </h3>
+              <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                Rustic eco-luxury retreat situated right beside the 50-acre buffalo sanctuary. Ideal for families wanting to experience the dairy safari and fresh morning milk tasting.
+              </p>
+            </div>
+
+            <div class="pt-4 text-xs text-emerald-700 font-semibold space-y-1">
+              <div>✓ Guided 500-buffalo dairy safari included</div>
+              <div>✓ Complimentary fresh organic A2 buffalo dairy tasting</div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-3 p-6 sm:p-7 bg-slate-50/70 flex flex-col justify-between">
+            <div class="space-y-2 text-right">
+              <span class="text-[11px] text-slate-500 block uppercase font-bold">Nightly Rate</span>
+              <div class="space-y-0.5">
+                <div class="text-3xl font-black text-[#052617] font-serif">₹25,000</div>
+                <span class="text-[11px] text-slate-500 block">/ Night + 18% GST</span>
+              </div>
+            </div>
+
+            <div class="pt-6 space-y-2">
+              <button class="btn-book-unit w-full py-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-700 hover:to-rose-800 text-white font-extrabold text-sm shadow-lg shadow-red-600/30 transition flex items-center justify-center gap-2"
+                      data-unit-id="villa-agri-cottage"
+                      data-unit-name="Buffalo Sanctuary Agritourism Cottage"
+                      data-unit-price="25000"
+                      data-unit-type="AGRI_COTTAGE">
+                <span>Book on MakeMyTrip</span>
+                <span>→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. 4K CINEMATIC VIDEO SHOWCASE -->
+  <section id="cinematic-videos" class="py-24 bg-slate-950 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-red-950/80 border border-red-500/40 text-red-300 text-xs font-bold tracking-wider uppercase mb-3">
+          <span class="w-2 h-2 rounded-full bg-red-400 animate-ping"></span>
+          Ultra-HD 4K Video Tours
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-black font-serif">
+          Watch The 100-Acre Estate in <span class="text-gold-gradient">Cinematic Motion</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-3">
+          Experience drone flights, cascading waterfalls, swimming pool leisure, the 500-buffalo dairy sanctuary, and flower valleys in full motion.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Video 1 -->
+        <div data-video-id="v-drone" class="group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#d4af37]/60 shadow-xl hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+          <div>
+            <div class="relative h-60 img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80" alt="Drone Tour" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/60 transition-all"></div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-14 h-14 rounded-full bg-red-600/90 text-white flex items-center justify-center text-xl font-bold shadow-xl group-hover:scale-120 group-hover:bg-red-600 transition-all duration-300">▶</div>
+              </div>
+              <div class="absolute top-3 left-3 bg-red-600 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-md shadow">4K Ultra-HD Drone</div>
+              <div class="absolute bottom-3 right-3 bg-black/80 text-slate-200 text-xs font-semibold px-2 py-0.5 rounded backdrop-blur-sm">⏱ 02:45</div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-serif font-bold text-lg text-white group-hover:text-[#f3e5ab] transition">4K Cinematic Drone Flyover: Entire 100-Acre Estate</h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">Soar above the 100 sprawling acres near HITEC City. Witness the central luxury villa, cascading stone waterfalls, 50-acre buffalo herd grazing, and endless blooming flower valleys.</p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <span class="text-xs font-bold text-[#d4af37] flex items-center gap-1.5 group-hover:underline">Watch Full 4K Video Now →</span>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div data-video-id="v-pool" class="group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#d4af37]/60 shadow-xl hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+          <div>
+            <div class="relative h-60 img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80" alt="Pool & Waterfalls" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/60 transition-all"></div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-14 h-14 rounded-full bg-red-600/90 text-white flex items-center justify-center text-xl font-bold shadow-xl group-hover:scale-120 group-hover:bg-red-600 transition-all duration-300">▶</div>
+              </div>
+              <div class="absolute top-3 left-3 bg-cyan-600 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-md shadow">Estate Heart</div>
+              <div class="absolute bottom-3 right-3 bg-black/80 text-slate-200 text-xs font-semibold px-2 py-0.5 rounded backdrop-blur-sm">⏱ 01:50</div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-serif font-bold text-lg text-white group-hover:text-[#f3e5ab] transition">Luxury Farmhouse, Infinity Pool & Cascading Waterfalls</h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">Walkthrough of the central luxury mansion, crystal-clear swimming pool with illuminated loungers, and natural rock waterfalls showering cooling mist into the Hyderabad sunshine.</p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <span class="text-xs font-bold text-[#d4af37] flex items-center gap-1.5 group-hover:underline">Watch Full 4K Video Now →</span>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div data-video-id="v-buffalos" class="group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-slate-800 hover:border-[#d4af37]/60 shadow-xl hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+          <div>
+            <div class="relative h-60 img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80" alt="500 Buffalos" class="w-full h-full object-cover" />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/60 transition-all"></div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-14 h-14 rounded-full bg-red-600/90 text-white flex items-center justify-center text-xl font-bold shadow-xl group-hover:scale-120 group-hover:bg-red-600 transition-all duration-300">▶</div>
+              </div>
+              <div class="absolute top-3 left-3 bg-emerald-600 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-md shadow">50-Acre Dairy</div>
+              <div class="absolute bottom-3 right-3 bg-black/80 text-slate-200 text-xs font-semibold px-2 py-0.5 rounded backdrop-blur-sm">⏱ 02:15</div>
+            </div>
+            <div class="p-5">
+              <h3 class="font-serif font-bold text-lg text-white group-hover:text-[#f3e5ab] transition">Inside the 500-Buffalo Sanctuary & Dairy Experience</h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">Discover our 50-acre ethical dairy sanctuary. Watch 500 majestic Murrah buffalos grazing on 10 acres of fresh green fodder, resting in ventilated mist sheds, and organic dairy processing.</p>
+            </div>
+          </div>
+          <div class="p-5 pt-0">
+            <span class="text-xs font-bold text-[#d4af37] flex items-center gap-1.5 group-hover:underline">Watch Full 4K Video Now →</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. VIRAL SOCIAL REELS WALL -->
+  <section id="viral-reels" class="py-20 bg-gradient-to-b from-[#041a0f] to-[#062c19] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-wrap items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-dark-gold text-xs font-bold uppercase tracking-wider mb-2">
+            VIRAL SOCIAL HYPE
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold font-serif">
+            Trending on Instagram & TikTok in Hyderabad
+          </h2>
+          <p class="text-slate-300 text-xs sm:text-sm mt-1">
+            See why tech leaders, celebrities, and wedding couples are raving about jaikrishnaram.formhouse.com.
+          </p>
+        </div>
+
+        <button class="btn-whatsapp-inquiry btn-gold px-5 py-2.5 rounded-xl text-xs font-bold">
+          Book Your Viral Weekend →
+        </button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Reel 1 -->
+        <div data-video-id="v-drone" class="group cursor-pointer rounded-3xl overflow-hidden bg-slate-900 border border-white/10 hover:border-[#d4af37] transition duration-300 relative shadow-2xl">
+          <div class="h-[420px] relative overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=600&q=80" alt="Reel 1" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/30"></div>
+            <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+              <div class="flex items-center gap-2 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/20">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="User" class="w-5 h-5 rounded-full object-cover" />
+                <span class="text-[11px] font-bold text-white">@hyderabad_luxurylife</span>
+              </div>
+              <span class="text-[10px] bg-red-600 text-white font-extrabold px-2 py-0.5 rounded-full">Trending #1 in Hyd</span>
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center text-2xl font-bold border border-white/30">▶</div>
+            </div>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <p class="text-xs font-medium line-clamp-2 leading-snug mb-3">POV: You leased a 100-acre private farm in HITEC City for the weekend 🔥</p>
+              <div class="flex items-center justify-between text-xs pt-2 border-t border-white/20 text-slate-300">
+                <span class="flex items-center gap-1 font-bold text-rose-400">❤️ 128.4K</span>
+                <span class="flex items-center gap-1 text-slate-300">👁️ 890K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reel 2 -->
+        <div data-video-id="v-buffalos" class="group cursor-pointer rounded-3xl overflow-hidden bg-slate-900 border border-white/10 hover:border-[#d4af37] transition duration-300 relative shadow-2xl">
+          <div class="h-[420px] relative overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=600&q=80" alt="Reel 2" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/30"></div>
+            <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+              <div class="flex items-center gap-2 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/20">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="User" class="w-5 h-5 rounded-full object-cover" />
+                <span class="text-[11px] font-bold text-white">@tech_retreats_india</span>
+              </div>
+              <span class="text-[10px] bg-red-600 text-white font-extrabold px-2 py-0.5 rounded-full">Corporate Viral</span>
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center text-2xl font-bold border border-white/30">▶</div>
+            </div>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <p class="text-xs font-medium line-clamp-2 leading-snug mb-3">Google & Microsoft leadership retreat at the 100-acre buffalo sanctuary 🐂💻</p>
+              <div class="flex items-center justify-between text-xs pt-2 border-t border-white/20 text-slate-300">
+                <span class="flex items-center gap-1 font-bold text-rose-400">❤️ 94.2K</span>
+                <span class="flex items-center gap-1 text-slate-300">👁️ 640K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reel 3 -->
+        <div data-video-id="v-flowers" class="group cursor-pointer rounded-3xl overflow-hidden bg-slate-900 border border-white/10 hover:border-[#d4af37] transition duration-300 relative shadow-2xl">
+          <div class="h-[420px] relative overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&w=600&q=80" alt="Reel 3" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/30"></div>
+            <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+              <div class="flex items-center gap-2 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/20">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="User" class="w-5 h-5 rounded-full object-cover" />
+                <span class="text-[11px] font-bold text-white">@weddings_of_hyderabad</span>
+              </div>
+              <span class="text-[10px] bg-red-600 text-white font-extrabold px-2 py-0.5 rounded-full">1.2M Views</span>
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center text-2xl font-bold border border-white/30">▶</div>
+            </div>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <p class="text-xs font-medium line-clamp-2 leading-snug mb-3">The dreamiest pre-wedding shoot ever in 25 acres of blooming sunflowers & roses 💐</p>
+              <div class="flex items-center justify-between text-xs pt-2 border-t border-white/20 text-slate-300">
+                <span class="flex items-center gap-1 font-bold text-rose-400">❤️ 185.6K</span>
+                <span class="flex items-center gap-1 text-slate-300">👁️ 1.2M</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Reel 4 -->
+        <div data-video-id="v-buffalos" class="group cursor-pointer rounded-3xl overflow-hidden bg-slate-900 border border-white/10 hover:border-[#d4af37] transition duration-300 relative shadow-2xl">
+          <div class="h-[420px] relative overflow-hidden img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=600&q=80" alt="Reel 4" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-black/30"></div>
+            <div class="absolute top-4 left-4 right-4 flex items-center justify-between">
+              <div class="flex items-center gap-2 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-full border border-white/20">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80" alt="User" class="w-5 h-5 rounded-full object-cover" />
+                <span class="text-[11px] font-bold text-white">@hyd_foodie_diaries</span>
+              </div>
+              <span class="text-[10px] bg-red-600 text-white font-extrabold px-2 py-0.5 rounded-full">Farm To Table</span>
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <div class="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md text-white flex items-center justify-center text-2xl font-bold border border-white/30">▶</div>
+            </div>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <p class="text-xs font-medium line-clamp-2 leading-snug mb-3">Drinking 100% pure organic warm buffalo milk straight from the dairy farm! 🥛</p>
+              <div class="flex items-center justify-between text-xs pt-2 border-t border-white/20 text-slate-300">
+                <span class="flex items-center gap-1 font-bold text-rose-400">❤️ 76.8K</span>
+                <span class="flex items-center gap-1 text-slate-300">👁️ 430K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. INTERACTIVE 3D VIRTUAL ESTATE EXPLORER -->
+  <section id="three-d-experience" class="py-20 bg-slate-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 text-xs font-semibold tracking-wider uppercase mb-3">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+          Interactive 3D WebGL Simulation
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-bold font-serif">
+          Explore the 100-Acre Master Plan in <span class="text-gold-gradient">Interactive 3D</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-2">
+          Rotate 360°, zoom in, and inspect the cascading rock waterfalls, swimming pool ripples, and grazing buffalo sanctuary.
+        </p>
+      </div>
+
+      <div class="relative">
+        
+        <!-- HUD Controls -->
+        <div class="hud-overlay top-4 left-4 right-4 flex flex-wrap items-center justify-between gap-3">
+          
+          <div class="flex flex-wrap items-center gap-2 bg-[#062c19]/90 backdrop-blur-md p-1.5 rounded-2xl border border-white/20 shadow-xl">
+            <button data-mode="overview" class="btn-3d-view px-3 py-1.5 rounded-xl text-xs font-semibold transition bg-[#d4af37] text-[#052617] font-bold">
+              🗺️ 100-Acre Overview
+            </button>
+            <button data-mode="waterfall-pool" class="btn-3d-view px-3 py-1.5 rounded-xl text-xs font-semibold transition text-slate-200 hover:bg-white/10">
+              💧 Waterfalls & Pool
+            </button>
+            <button data-mode="buffalos" class="btn-3d-view px-3 py-1.5 rounded-xl text-xs font-semibold transition text-slate-200 hover:bg-white/10">
+              🐂 500 Buffalos (50 Acres)
+            </button>
+            <button data-mode="farmhouse" class="btn-3d-view px-3 py-1.5 rounded-xl text-xs font-semibold transition text-slate-200 hover:bg-white/10">
+              🏰 Central Farmhouse
+            </button>
+            <button data-mode="flowers" class="btn-3d-view px-3 py-1.5 rounded-xl text-xs font-semibold transition text-slate-200 hover:bg-white/10">
+              🌸 Flower Fields
+            </button>
+          </div>
+
+          <div class="flex items-center gap-1.5 bg-[#062c19]/90 backdrop-blur-md p-1.5 rounded-2xl border border-white/20 shadow-xl">
+            <span class="text-[11px] text-slate-400 px-2 font-medium">Ambience:</span>
+            <button data-time="day" class="btn-3d-time px-2.5 py-1 rounded-lg text-xs font-medium transition bg-white text-slate-900 font-bold">
+              ☀️ Day
+            </button>
+            <button data-time="sunset" class="btn-3d-time px-2.5 py-1 rounded-lg text-xs font-medium transition text-slate-300 hover:text-white">
+              🌅 Sunset
+            </button>
+            <button data-time="night" class="btn-3d-time px-2.5 py-1 rounded-lg text-xs font-medium transition text-slate-300 hover:text-white">
+              🌙 Night Lights
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Canvas -->
+        <div id="three-canvas-container" class="cursor-grab active:cursor-grabbing border border-slate-700"></div>
+
+        <!-- Bottom Helper Bar -->
+        <div class="hud-overlay bottom-4 left-4 right-4 flex flex-wrap items-center justify-between text-xs text-slate-300 pointer-events-none">
+          <div class="bg-black/70 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-white/10 flex items-center gap-2">
+            <span class="text-[#d4af37]">🖱️ Drag to rotate</span>
+            <span>•</span>
+            <span>Scroll to zoom</span>
+            <span>•</span>
+            <span>Right click to pan</span>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <button class="btn-toggle-sound bg-black/70 hover:bg-black/90 pointer-events-auto backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-white/20 text-[#f3e5ab] font-medium flex items-center gap-2 transition">
+              <span class="sound-text">🔈 Hear Waterfalls & Nature</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. THE 100-ACRE ZONING BREAKDOWN -->
+  <section id="about-100-acres" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-gold text-xs font-bold uppercase tracking-wider mb-2">
+        ZONING ARCHITECTURE
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold font-serif text-[#052617]">
+        Inside Hyderabad’s Premier 100-Acre Estate
+      </h2>
+      <p class="text-slate-600 text-sm sm:text-base mt-2">
+        Every section of the 100 acres has been thoughtfully designed for sustainable agriculture, elite hospitality, and total seclusion in HITEC City.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Zone 1 -->
+      <div class="glass-card rounded-2xl overflow-hidden border border-slate-200 hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+        <div>
+          <div class="relative h-56 img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80" alt="Buffalo Sanctuary" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-[#052617]/90 text-[#f3e5ab] text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm border border-[#d4af37]/30">50 Acres</div>
+            <div class="absolute top-4 right-4 bg-white/90 text-slate-800 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">Flagship Dairy Farm</div>
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-bold text-[#052617] mb-2">The 500-Buffalo Sanctuary & Dairy Shelters</h3>
+            <p class="text-xs font-semibold text-emerald-700 mb-3">★ 500 Murrah & Jafrabadi Buffalos</p>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">A world-class dairy sanctuary spanning 50 acres with over 500 prize buffalos. Features aerated sheds, clean drinking water systems, automated milking centers, and dedicated veterinary stations.</p>
+            <ul class="space-y-2 border-t border-slate-100 pt-3 text-xs text-slate-700">
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> 500 majestic buffalos cared for with ethical organic practices</li>
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Spacious, ventilated all-weather sheds and bathing ponds</li>
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Interactive dairy tour & fresh organic milk tasting for guests</li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="#three-d-experience" class="btn-3d-view w-full py-2.5 rounded-xl border border-emerald-800/30 text-emerald-800 text-xs font-bold hover:bg-emerald-50 text-center block transition" data-mode="buffalos">View in 3D Explorer →</a>
+        </div>
+      </div>
+
+      <!-- Zone 2 -->
+      <div class="glass-card rounded-2xl overflow-hidden border border-slate-200 hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+        <div>
+          <div class="relative h-56 img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" alt="Central Villa" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-[#052617]/90 text-[#f3e5ab] text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm border border-[#d4af37]/30">Heart of 100 Acres</div>
+            <div class="absolute top-4 right-4 bg-white/90 text-slate-800 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">Private Luxury Residence</div>
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-bold text-[#052617] mb-2">Central Luxury Farmhouse Oasis</h3>
+            <p class="text-xs font-semibold text-emerald-700 mb-3">★ Infinity Pool & Rock Waterfalls</p>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">The crown jewel situated in the center of the 100 acres. A lavish architectural mansion surrounded by paved avenues, private waterfalls, heated pool, lush lawns, and VIP entertainment lounges.</p>
+            <ul class="space-y-2 border-t border-slate-100 pt-3 text-xs text-slate-700">
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Designer swimming pool with sun deck and underwater mood lighting</li>
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Natural rock waterfalls with cascading streams and mist lounge</li>
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Palatial bedrooms, formal dining, high-speed WiFi and banquet patio</li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="#three-d-experience" class="btn-3d-view w-full py-2.5 rounded-xl border border-emerald-800/30 text-emerald-800 text-xs font-bold hover:bg-emerald-50 text-center block transition" data-mode="waterfall-pool">View in 3D Explorer →</a>
+        </div>
+      </div>
+
+      <!-- Zone 3 -->
+      <div class="glass-card rounded-2xl overflow-hidden border border-slate-200 hover:shadow-2xl transition duration-300 flex flex-col justify-between">
+        <div>
+          <div class="relative h-56 img-zoom-container">
+            <img src="https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&w=1200&q=80" alt="Flower Fields" class="w-full h-full object-cover" />
+            <div class="absolute top-4 left-4 bg-[#052617]/90 text-[#f3e5ab] text-xs font-bold px-3 py-1 rounded-full backdrop-blur-sm border border-[#d4af37]/30">25+ Acres</div>
+            <div class="absolute top-4 right-4 bg-white/90 text-slate-800 text-[11px] font-semibold px-2.5 py-1 rounded-md shadow">Floriculture Marvel</div>
+          </div>
+          <div class="p-6">
+            <h3 class="font-serif text-xl font-bold text-[#052617] mb-2">Exotic Multi-Hue Flower Meadows</h3>
+            <p class="text-xs font-semibold text-emerald-700 mb-3">★ Year-Round Vibrant Blooms</p>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed mb-4">Vast expanses of multi-colored flowers cultivating marigolds, roses, lavender, sunflowers, and orchids. A dream location for pre-wedding photoshoots, drone videography, and nature walks.</p>
+            <ul class="space-y-2 border-t border-slate-100 pt-3 text-xs text-slate-700">
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Rainbow flower valleys creating picturesque European-style landscapes</li>
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Aromatic walking trails with gazebos and photo booths</li>
+              <li><span class="text-emerald-600 font-bold mr-1">✓</span> Fresh organic flower harvesting experience for weekend guests</li>
+            </ul>
+          </div>
+        </div>
+        <div class="p-6 pt-0">
+          <a href="#three-d-experience" class="btn-3d-view w-full py-2.5 rounded-xl border border-emerald-800/30 text-emerald-800 text-xs font-bold hover:bg-emerald-50 text-center block transition" data-mode="flowers">View in 3D Explorer →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. DEDICATED 50-ACRE BUFFALO SANCTUARY & CINEMATIC VFX SHOWCASE -->
+  <section id="buffalo-sanctuary" class="py-24 bg-gradient-to-b from-[#052617] via-[#083b23] to-[#041a0f] text-white relative overflow-hidden">
+    
+    <!-- Ambient background glow elements -->
+    <div class="absolute -top-40 -left-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 rounded-full bg-[#d4af37]/10 blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#d4af37]/20 border border-[#d4af37]/40 text-[#f3e5ab] text-xs font-bold uppercase tracking-wider mb-3 shadow-inner">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          50 ACRES • 500 BUFFALOS • ZERO-CRUELTY ETHICAL SANCTUARY
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-black font-serif tracking-tight text-white">
+          The 500-Buffalo Sanctuary & <span class="text-gold-gradient">Organic Dairy Estate</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
+          Spanning 50 dedicated acres within the 100-acre estate near HITEC City. Witness over 500 prize Indian Murrah and Jafrabadi buffalos thriving with automated mist cooling fans, fresh water bathing lakes, organic green pastures, and pure farm-to-table dairy tastings.
+        </p>
+      </div>
+
+      <!-- CINEMATIC VFX INTERACTIVE PASTURE & LAKE SIMULATOR -->
+      <div class="rounded-3xl overflow-hidden border border-[#d4af37]/30 bg-black/60 shadow-2xl relative mb-16 backdrop-blur-md">
+        
+        <!-- VFX HUD Header Controls -->
+        <div class="p-4 sm:p-5 border-b border-white/10 flex flex-wrap items-center justify-between gap-4 bg-[#052617]/80">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-900/80 border border-emerald-400/30 flex items-center justify-center text-xl shadow">
+              🐂
+            </div>
+            <div>
+              <span class="font-serif font-bold text-sm sm:text-base text-white block">
+                Live Sanctuary Atmospheric & Fluid VFX
+              </span>
+              <span class="text-[11px] text-emerald-300 flex items-center gap-1.5 font-medium">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                Real-Time Volumetric Mist • Lake Ripple Waves • Sunbeam Godrays
+              </span>
+            </div>
+          </div>
+
+          <!-- Time of Day Switcher -->
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-xs text-slate-400 font-medium hidden md:inline">Atmosphere:</span>
+            <div class="flex items-center gap-1 bg-black/50 p-1 rounded-xl border border-white/15">
+              <button id="vfx-time-dawn" class="btn-vfx-mode px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white transition" data-mode="dawn">
+                🌫️ Dawn Mist
+              </button>
+              <button id="vfx-time-golden" class="btn-vfx-mode px-3 py-1.5 rounded-lg text-xs font-bold bg-[#d4af37] text-[#052617] shadow transition" data-mode="golden">
+                🌅 Golden Hour
+              </button>
+              <button id="vfx-time-noon" class="btn-vfx-mode px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white transition" data-mode="noon">
+                ☀️ High Noon
+              </button>
+              <button id="vfx-time-night" class="btn-vfx-mode px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-300 hover:text-white transition" data-mode="night">
+                ✨ Starlight Night
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- HTML5 Canvas Viewport -->
+        <div class="relative group cursor-crosshair">
+          <canvas id="buffalo-vfx-canvas" class="w-full h-80 sm:h-[460px] block"></canvas>
+
+          <!-- Floating Interactive HUD Badges -->
+          <div class="absolute top-4 left-4 bg-black/60 backdrop-blur-md px-3.5 py-2 rounded-xl border border-white/20 text-xs space-y-1 pointer-events-none">
+            <div class="flex items-center gap-2 text-[#f3e5ab] font-bold">
+              <span>★ 500 Murrah & Jafrabadi Buffalos</span>
+            </div>
+            <div class="text-[11px] text-slate-300">
+              <span>Automated Mist Cooling Sheds: <strong class="text-emerald-400">ACTIVE</strong></span>
+            </div>
+          </div>
+
+          <!-- Water Ripple Prompt -->
+          <div class="absolute bottom-4 left-4 bg-black/70 backdrop-blur-md px-4 py-2 rounded-xl border border-white/15 text-xs text-slate-300 flex items-center gap-2 pointer-events-none">
+            <span class="text-cyan-300">💧 Interactive Lake:</span>
+            <span>Hover or drag over the lake (bottom right) to produce real-time water wave ripples & splashes!</span>
+          </div>
+
+          <!-- Quick Jump to 3D Three.js Explorer -->
+          <div class="absolute bottom-4 right-4">
+            <a href="#three-d-experience" class="btn-3d-view btn-gold px-4 py-2 rounded-xl text-xs font-bold text-[#052617] shadow-xl flex items-center gap-2 transition hover:scale-105" data-mode="buffalos">
+              <span>Fly 3D WebGL Camera Here →</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- VFX Engine Toggles Bar -->
+        <div class="p-4 bg-black/40 border-t border-white/10 flex flex-wrap items-center justify-between text-xs text-slate-300 gap-3">
+          <div class="flex flex-wrap items-center gap-4">
+            <span class="text-slate-400 font-semibold">Active VFX Layers:</span>
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-white">
+              <input type="checkbox" id="toggle-vfx-mist" checked class="rounded accent-[#d4af37]" />
+              <span>Ground Mist Clouds</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-white">
+              <input type="checkbox" id="toggle-vfx-godrays" checked class="rounded accent-[#d4af37]" />
+              <span>Volumetric Sunbeams</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-white">
+              <input type="checkbox" id="toggle-vfx-ripples" checked class="rounded accent-[#d4af37]" />
+              <span>Water Ripple Physics</span>
+            </label>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <button class="btn-toggle-sound px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-medium flex items-center gap-1.5 transition">
+              <span>🔈 Hear Grazing & Pasture Soundscape</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ULTRA-HD 4K PHOTOGRAPHY GALLERY OF THE 500-BUFFALO SANCTUARY -->
+      <div class="mb-16">
+        <div class="flex flex-wrap items-end justify-between mb-8 gap-4">
+          <div>
+            <span class="text-[#d4af37] text-xs font-extrabold uppercase tracking-wider block">4K CURATED PHOTOGRAPHY</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mt-1">
+              Inside the 50-Acre Dairy Sanctuary
+            </h3>
+            <p class="text-slate-400 text-xs sm:text-sm mt-1">
+              Click any high-resolution photograph to inspect in full-screen 4K lightbox mode.
+            </p>
+          </div>
+          <span class="px-3.5 py-1.5 rounded-xl bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 text-xs font-bold">
+            ✓ 100% Authentic Estate Photography
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- Photo 1: Champion Murrah Herd -->
+          <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-white/15 hover:border-[#d4af37]/60 shadow-xl transition-all duration-300"
+               data-img-src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80"
+               data-img-title="500 Prize Murrah & Jafrabadi Buffalos"
+               data-img-desc="Majestic champion breed water buffalos grazing peacefully across the 50-acre green pastures near HITEC City.">
+            <div class="h-64 relative overflow-hidden img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80" alt="Murrah Buffalos" class="w-full h-full object-cover" />
+              <div class="absolute top-3 left-3 bg-black/70 text-[#f3e5ab] text-[11px] font-bold px-2.5 py-1 rounded-full border border-white/20">Champion Murrah Breed</div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <span class="text-xs text-white font-medium">🔍 Click for Full 4K View</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-serif font-bold text-white text-base group-hover:text-[#f3e5ab] transition">Champion Murrah Pasture Herd</h4>
+              <p class="text-slate-400 text-xs mt-1 leading-relaxed">Renowned for high-butterfat A2 milk, curled horns, and calm temperament under zero-cruelty care.</p>
+            </div>
+          </div>
+
+          <!-- Photo 2: Natural Spring Lake Bathing -->
+          <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-white/15 hover:border-[#d4af37]/60 shadow-xl transition-all duration-300"
+               data-img-src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=80"
+               data-img-title="Natural Spring Water Lake & Cooling Ponds"
+               data-img-desc="Dedicated deep natural spring water bodies where buffalos wallow and cool off naturally in the afternoon heat.">
+            <div class="h-64 relative overflow-hidden img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=80" alt="Buffalo Bathing Lake" class="w-full h-full object-cover" />
+              <div class="absolute top-3 left-3 bg-black/70 text-cyan-300 text-[11px] font-bold px-2.5 py-1 rounded-full border border-white/20">Natural Bathing Lake</div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <span class="text-xs text-white font-medium">🔍 Click for Full 4K View</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-serif font-bold text-white text-base group-hover:text-[#f3e5ab] transition">Natural Spring Bathing Lake</h4>
+              <p class="text-slate-400 text-xs mt-1 leading-relaxed">Aerated clean freshwater pond where herds relax during midday, surrounded by weeping willows and stone banks.</p>
+            </div>
+          </div>
+
+          <!-- Photo 3: Modern Climate-Regulated Mist Sheds -->
+          <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-white/15 hover:border-[#d4af37]/60 shadow-xl transition-all duration-300"
+               data-img-src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80"
+               data-img-title="High-Tech Automated Mist Cooling Sheds"
+               data-img-desc="Aerated bio-secure shelters equipped with micro-mist nozzles and industrial fans that keep the herd calm and cool 24/7.">
+            <div class="h-64 relative overflow-hidden img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80" alt="Modern Sheds" class="w-full h-full object-cover" />
+              <div class="absolute top-3 left-3 bg-black/70 text-emerald-300 text-[11px] font-bold px-2.5 py-1 rounded-full border border-white/20">High-Tech Mist Sheds</div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <span class="text-xs text-white font-medium">🔍 Click for Full 4K View</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-serif font-bold text-white text-base group-hover:text-[#f3e5ab] transition">Automated Mist Cooling Shelters</h4>
+              <p class="text-slate-400 text-xs mt-1 leading-relaxed">Spacious covered pavilions featuring automated high-velocity misting lines and rubber comfort flooring.</p>
+            </div>
+          </div>
+
+          <!-- Photo 4: 10 Acres Super Napier Pasture -->
+          <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-white/15 hover:border-[#d4af37]/60 shadow-xl transition-all duration-300"
+               data-img-src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80"
+               data-img-title="10 Acres Organic Super Napier Fodder Fields"
+               data-img-desc="Nutrient-dense green pastures irrigated by micro-sprinklers providing 100% natural, chemical-free nutrition to the 500 buffalos.">
+            <div class="h-64 relative overflow-hidden img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80" alt="Fodder Pasture" class="w-full h-full object-cover" />
+              <div class="absolute top-3 left-3 bg-black/70 text-amber-300 text-[11px] font-bold px-2.5 py-1 rounded-full border border-white/20">10 Acres Organic Fodder</div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <span class="text-xs text-white font-medium">🔍 Click for Full 4K View</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-serif font-bold text-white text-base group-hover:text-[#f3e5ab] transition">Super Napier Fodder Grasslands</h4>
+              <p class="text-slate-400 text-xs mt-1 leading-relaxed">Vibrant emerald pasture fields cultivated with high-protein organic fodder for optimal livestock health and vitality.</p>
+            </div>
+          </div>
+
+          <!-- Photo 5: Pure A2 Dairy Tasting Experience -->
+          <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-white/15 hover:border-[#d4af37]/60 shadow-xl transition-all duration-300"
+               data-img-src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80"
+               data-img-title="Organic A2 Buffalo Dairy Tasting Pavilion"
+               data-img-desc="Complimentary farm-to-table tasting of rich warm buffalo milk, hand-churned white butter, and artisanal paneer for weekend guests.">
+            <div class="h-64 relative overflow-hidden img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1200&q=80" alt="Dairy Tasting" class="w-full h-full object-cover" />
+              <div class="absolute top-3 left-3 bg-black/70 text-[#f3e5ab] text-[11px] font-bold px-2.5 py-1 rounded-full border border-white/20">Farm-to-Table Tasting</div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <span class="text-xs text-white font-medium">🔍 Click for Full 4K View</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-serif font-bold text-white text-base group-hover:text-[#f3e5ab] transition">Farm-Fresh A2 Dairy Pavilion</h4>
+              <p class="text-slate-400 text-xs mt-1 leading-relaxed">Enjoy morning tasting sessions of 100% organic unpasteurized A2 buffalo milk, golden bilona ghee, and soft paneer.</p>
+            </div>
+          </div>
+
+          <!-- Photo 6: Electric Safari Buggies -->
+          <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 border border-white/15 hover:border-[#d4af37]/60 shadow-xl transition-all duration-300"
+               data-img-src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200&q=80"
+               data-img-title="VIP Guided Electric Golf-Cart Safari"
+               data-img-desc="Tour the 50-acre buffalo sanctuary along neat paved roads in silent luxury 6-seater electric carts.">
+            <div class="h-64 relative overflow-hidden img-zoom-container">
+              <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1200&q=80" alt="Golf Cart Safari" class="w-full h-full object-cover" />
+              <div class="absolute top-3 left-3 bg-black/70 text-cyan-300 text-[11px] font-bold px-2.5 py-1 rounded-full border border-white/20">Electric Safari Carts</div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <span class="text-xs text-white font-medium">🔍 Click for Full 4K View</span>
+              </div>
+            </div>
+            <div class="p-5">
+              <h4 class="font-serif font-bold text-white text-base group-hover:text-[#f3e5ab] transition">Guided Electric Safari Carts</h4>
+              <p class="text-slate-400 text-xs mt-1 leading-relaxed">Whisper-quiet electric buggies provided for guests to comfortably tour the herds without disturbing the livestock.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- MAKEMYTRIP STYLE RESORT & AGRITOURISM BENCHMARK BANNER -->
+      <div class="bg-gradient-to-r from-black/80 via-[#062c19] to-black/80 rounded-3xl p-6 sm:p-8 border border-[#d4af37]/40 shadow-2xl flex flex-wrap items-center justify-between gap-6">
+        <div class="space-y-2 max-w-xl">
+          <div class="flex items-center gap-2">
+            <span class="px-2.5 py-0.5 rounded bg-[#d4af37] text-[#052617] text-xs font-black">MMT 4.95 / 5.0</span>
+            <span class="text-xs text-amber-300 font-bold">★ #1 Ranked Agritourism Estate in Hyderabad</span>
+          </div>
+          <h4 class="font-serif text-xl sm:text-2xl font-bold text-white">
+            Included in the Exclusive ₹5,00,000 Weekend Lease
+          </h4>
+          <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+            Full private guided tour of the 500-buffalo sanctuary, fresh organic dairy tasting, and unlimited electric golf cart access are included automatically with every Saturday & Sunday buyout reservation.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-center gap-3">
+          <a href="#weekend-lease" class="btn-gold px-6 py-3.5 rounded-xl font-bold text-xs sm:text-sm text-[#052617] shadow-xl hover:scale-105 transition flex items-center gap-2">
+            <span>Reserve Weekend Lease (₹5L) →</span>
+          </a>
+          <button type="button" class="btn-whatsapp-inquiry px-5 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition flex items-center gap-2">
+            <span>Ask Concierge on WhatsApp</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. HIGH-DEFINITION PHOTO GALLERY -->
+  <section id="gallery" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-gold text-xs font-bold uppercase tracking-wider mb-2">
+        HIGH-DEFINITION 4K VISUALS
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold font-serif text-[#052617]">
+        The 100-Acre Estate Photo Showcase
+      </h2>
+      <p class="text-slate-600 text-sm sm:text-base mt-2">
+        Click any picture for full-screen high-resolution zoom view and estate details.
+      </p>
+
+      <!-- Category Filter Tabs -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mt-6">
+        <button class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold transition bg-[#0a4d2e] text-white shadow-md" data-category="all">All Views</button>
+        <button class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold transition bg-white text-slate-600 hover:bg-slate-100 border border-slate-200" data-category="farmhouse">Central Farmhouse</button>
+        <button class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold transition bg-white text-slate-600 hover:bg-slate-100 border border-slate-200" data-category="pool">Swimming Pool</button>
+        <button class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold transition bg-white text-slate-600 hover:bg-slate-100 border border-slate-200" data-category="waterfall">Waterfalls</button>
+        <button class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold transition bg-white text-slate-600 hover:bg-slate-100 border border-slate-200" data-category="buffalos">500 Buffalos & Pasture</button>
+        <button class="gallery-tab-btn px-4 py-2 rounded-xl text-xs font-bold transition bg-white text-slate-600 hover:bg-slate-100 border border-slate-200" data-category="flowers">Flower Fields</button>
+      </div>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      
+      <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300" data-category="farmhouse" data-img-src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" data-img-title="Central Luxury Farmhouse Villa" data-img-desc="Architectural masterpiece at the epicenter of 100 green acres.">
+        <div class="h-60 relative overflow-hidden img-zoom-container">
+          <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" alt="Farmhouse" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+            <span class="text-xs text-white font-medium flex items-center gap-1.5">🔍 Click for 4K Zoom View</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-serif font-bold text-slate-900 text-sm group-hover:text-emerald-800 transition">Central Luxury Farmhouse Villa</h4>
+          <p class="text-slate-500 text-xs mt-1">Architectural masterpiece at the epicenter of 100 green acres.</p>
+        </div>
+      </div>
+
+      <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300" data-category="pool" data-img-src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80" data-img-title="Crystal Water Swimming Pool" data-img-desc="Private heated swimming pool with sunbeds, cabanas, and towel service.">
+        <div class="h-60 relative overflow-hidden img-zoom-container">
+          <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1200&q=80" alt="Pool" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+            <span class="text-xs text-white font-medium flex items-center gap-1.5">🔍 Click for 4K Zoom View</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-serif font-bold text-slate-900 text-sm group-hover:text-emerald-800 transition">Crystal Water Swimming Pool</h4>
+          <p class="text-slate-500 text-xs mt-1">Private heated swimming pool with sunbeds, cabanas, and towel service.</p>
+        </div>
+      </div>
+
+      <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300" data-category="waterfall" data-img-src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80" data-img-title="Cascading Stone Waterfalls" data-img-desc="Natural rock waterfall feature with soothing sounds and mist lounges.">
+        <div class="h-60 relative overflow-hidden img-zoom-container">
+          <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=1200&q=80" alt="Waterfall" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+            <span class="text-xs text-white font-medium flex items-center gap-1.5">🔍 Click for 4K Zoom View</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-serif font-bold text-slate-900 text-sm group-hover:text-emerald-800 transition">Cascading Stone Waterfalls</h4>
+          <p class="text-slate-500 text-xs mt-1">Natural rock waterfall feature with soothing sounds and mist lounges.</p>
+        </div>
+      </div>
+
+      <div class="gallery-card group cursor-pointer rounded-2xl overflow-hidden bg-white border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300" data-category="buffalos" data-img-src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80" data-img-title="The 500-Buffalo Sanctuary" data-img-desc="500 healthy, prize-grade Indian water buffalos across 50 pastoral acres.">
+        <div class="h-60 relative overflow-hidden img-zoom-container">
+          <img src="https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?auto=format&fit=crop&w=1200&q=80" alt="Buffalos" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+            <span class="text-xs text-white font-medium flex items-center gap-1.5">🔍 Click for 4K Zoom View</span>
+          </div>
+        </div>
+        <div class="p-4">
+          <h4 class="font-serif font-bold text-slate-900 text-sm group-hover:text-emerald-800 transition">The 500-Buffalo Sanctuary</h4>
+          <p class="text-slate-500 text-xs mt-1">500 healthy, prize-grade Indian water buffalos across 50 pastoral acres.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. WEEKEND LEASE BOOKING & PRICING ENGINE (₹5,00,000) -->
+  <section id="weekend-lease" class="py-24 bg-gradient-to-b from-[#062c19] to-[#041a0f] text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full badge-dark-gold text-xs font-bold uppercase tracking-wider mb-3">
+          SATURDAY & SUNDAY PRIVATE LEASE
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-black font-serif">
+          Lease the Entire 100 Acres for <span class="text-gold-gradient">₹5,00,000</span>
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-3 leading-relaxed">
+          Every weekend, the entire estate is leased exclusively to one privileged group. Enjoy full private access to the central luxury villa, swimming pool, waterfalls, 500-buffalo dairy sanctuary, and flower valleys.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-12 gap-12 items-start">
+        
+        <!-- Left: Inclusions & Addons -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="p-6 rounded-2xl bg-white/5 border border-[#d4af37]/30 backdrop-blur-md">
+            <div class="flex items-center justify-between pb-4 border-b border-white/10">
+              <div>
+                <span class="text-xs text-slate-300">Standard Weekend Package</span>
+                <h3 class="text-2xl font-black font-serif text-[#f3e5ab]">₹5,00,000 / Weekend Lease</h3>
+              </div>
+              <span class="px-3 py-1 rounded-md bg-emerald-500/20 text-emerald-300 text-xs font-semibold border border-emerald-500/30">All-Inclusive</span>
+            </div>
+            <div class="pt-4 text-xs text-slate-300 space-y-2">
+              <p class="font-semibold text-white">🗓️ Schedule:</p>
+              <p class="bg-white/5 p-2.5 rounded-lg border border-white/10 text-[#f3e5ab]">Every Saturday (10:00 AM) to Sunday (06:00 PM)</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+              <span class="text-[#d4af37]">★</span> What Your ₹5,00,000 Lease Includes:
+            </h4>
+            <div class="grid sm:grid-cols-2 gap-2.5 text-xs text-slate-200">
+              <div class="flex items-start gap-2 bg-white/5 p-2.5 rounded-xl border border-white/5">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span>Exclusive private takeover of central Luxury Farmhouse</span>
+              </div>
+              <div class="flex items-start gap-2 bg-white/5 p-2.5 rounded-xl border border-white/5">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span>Private access to Swimming Pool & poolside sound</span>
+              </div>
+              <div class="flex items-start gap-2 bg-white/5 p-2.5 rounded-xl border border-white/5">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span>Natural rock Waterfall feature & mist-cooling lounge</span>
+              </div>
+              <div class="flex items-start gap-2 bg-white/5 p-2.5 rounded-xl border border-white/5">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span>Guided golf-cart safari tour of entire 100 acres</span>
+              </div>
+              <div class="flex items-start gap-2 bg-white/5 p-2.5 rounded-xl border border-white/5">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span>View 500-buffalo sanctuary, milking parlor & sheds</span>
+              </div>
+              <div class="flex items-start gap-2 bg-white/5 p-2.5 rounded-xl border border-white/5">
+                <span class="text-emerald-400 font-bold">✓</span>
+                <span>24/7 dedicated armed security & gated check</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Addons -->
+          <div class="space-y-3 pt-4">
+            <h4 class="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+              <span class="text-[#d4af37]">✨</span> Optional VIP Custom Add-ons:
+            </h4>
+            <div class="space-y-2">
+              <label class="p-3 rounded-xl border border-white/10 hover:bg-white/10 flex items-center justify-between text-xs cursor-pointer transition">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" class="addon-checkbox rounded text-[#d4af37]" data-price="75000" />
+                  <span>Farm-to-Table Royal Hyderabadi Banquet</span>
+                </div>
+                <span class="font-bold text-[#f3e5ab]">+₹75,000</span>
+              </label>
+              <label class="p-3 rounded-xl border border-white/10 hover:bg-white/10 flex items-center justify-between text-xs cursor-pointer transition">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" class="addon-checkbox rounded text-[#d4af37]" data-price="35000" />
+                  <span>Cinematic 4K Drone & Ground Photography</span>
+                </div>
+                <span class="font-bold text-[#f3e5ab]">+₹35,000</span>
+              </label>
+              <label class="p-3 rounded-xl border border-white/10 hover:bg-white/10 flex items-center justify-between text-xs cursor-pointer transition">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" class="addon-checkbox rounded text-[#d4af37]" data-price="40000" />
+                  <span>Live Acoustic & Sufi Gazebo Performance</span>
+                </div>
+                <span class="font-bold text-[#f3e5ab]">+₹40,000</span>
+              </label>
+              <label class="p-3 rounded-xl border border-white/10 hover:bg-white/10 flex items-center justify-between text-xs cursor-pointer transition">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" class="addon-checkbox rounded text-[#d4af37]" data-price="20000" />
+                  <span>Fleet of 4 VIP Electric Golf Carts with Chauffeurs</span>
+                </div>
+                <span class="font-bold text-[#f3e5ab]">+₹20,000</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form & Calculator -->
+        <div class="lg:col-span-6">
+          <div class="glass-dark rounded-3xl p-6 sm:p-8 border border-[#d4af37]/40 shadow-2xl relative">
+            <div class="text-center pb-6 border-b border-white/10">
+              <h3 class="font-serif text-2xl font-bold text-white">Weekend Lease Reservation Engine</h3>
+              <p class="text-xs text-slate-300 mt-1">Select your upcoming Saturday & Sunday slot near HITEC City.</p>
+            </div>
+
+            <form id="lease-booking-form" class="space-y-4 pt-6">
+              
+              <div>
+                <label class="block text-xs font-semibold text-slate-200 mb-1">Select Weekend (Saturday Check-in Date) *</label>
+                <input type="date" id="booking-date-input" required class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-[#d4af37]" />
+                <span class="text-[11px] text-emerald-400 mt-1 block">✓ Automatically reserves Saturday 10:00 AM through Sunday 06:00 PM.</span>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-semibold text-slate-200 mb-1">
+                  <span>Expected Guests</span>
+                  <span id="guest-count-display" class="text-[#f3e5ab] font-bold">15 Guests</span>
+                </div>
+                <input type="range" id="guest-slider" min="2" max="100" value="15" class="w-full accent-[#d4af37]" />
+                <div class="flex justify-between text-[10px] text-slate-400">
+                  <span>2 Guests</span>
+                  <span>20 (Full Villa)</span>
+                  <span>100 (Estate Gathering)</span>
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-200 mb-1">Your Full Name *</label>
+                  <input type="text" id="input-name" placeholder="e.g. Ramesh Varma" required class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-[#d4af37]" />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-200 mb-1">Phone / WhatsApp *</label>
+                  <input type="tel" id="input-phone" placeholder="+91 98765 43210" required class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-[#d4af37]" />
+                </div>
+              </div>
+
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-200 mb-1">Email Address</label>
+                  <input type="email" id="input-email" placeholder="you@company.com" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-[#d4af37]" />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-200 mb-1">Purpose of Lease</label>
+                  <select id="select-event-type" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-2.5 text-xs text-white focus:outline-none focus:border-[#d4af37]">
+                    <option value="Corporate Tech Offsite" class="bg-slate-900 text-white">Corporate Tech Offsite (HITEC City)</option>
+                    <option value="Private Family Retreat" class="bg-slate-900 text-white">Private Luxury Family Retreat</option>
+                    <option value="Pre-Wedding & Drone Shoot" class="bg-slate-900 text-white">Pre-Wedding & Drone Photoshoot</option>
+                    <option value="Destination Celebration" class="bg-slate-900 text-white">Anniversary / Milestone Celebration</option>
+                    <option value="VIP Agritourism & Dairy Study" class="bg-slate-900 text-white">Agritourism & Farm Exploration</option>
+                  </select>
+                </div>
+              </div>
+
+                <!-- MakeMyTrip Promo Coupon Field -->
+                <div class="space-y-1 pt-2">
+                  <div class="flex justify-between items-center text-xs text-slate-300">
+                    <label class="font-semibold text-slate-200">MakeMyTrip Promo / Coupon Code</label>
+                    <span class="text-[11px] text-[#f3e5ab]">Try: <code class="cursor-pointer underline font-bold" id="quick-fill-coupon">MMTHYD2026</code></span>
+                  </div>
+                  <div class="flex gap-2">
+                    <input type="text" id="coupon-code-input" placeholder="e.g. MMTHYD2026" class="flex-1 bg-white/10 border border-white/20 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 uppercase tracking-wider focus:outline-none focus:border-[#d4af37]" />
+                    <button type="button" id="btn-apply-coupon" class="px-4 py-2.5 bg-[#d4af37] text-[#052617] font-bold text-xs rounded-xl hover:bg-[#b89528] transition shadow">
+                      Apply
+                    </button>
+                  </div>
+                  <div id="coupon-feedback" class="text-[11px] font-medium hidden"></div>
+                </div>
+
+              </div>
+
+              <!-- Price Card with MakeMyTrip Style Breakdown & Live Backend Integration -->
+              <div class="p-4 rounded-2xl bg-black/50 border border-[#d4af37]/40 space-y-2.5 mt-4 shadow-xl">
+                
+                <!-- Live Backend Engine Status -->
+                <div class="flex items-center justify-between text-[11px] pb-2 border-b border-white/10">
+                  <span class="text-slate-400">Reservation API Engine:</span>
+                  <span id="backend-status-badge" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Live REST API Online
+                  </span>
+                </div>
+
+                <div class="flex justify-between text-xs text-slate-300">
+                  <span>100-Acre Weekend Lease (Sat & Sun):</span>
+                  <span class="font-semibold text-white">₹5,00,000</span>
+                </div>
+                
+                <div id="addons-summary-row" class="hidden flex justify-between text-xs text-slate-300">
+                  <span>Selected VIP Add-ons:</span>
+                  <span id="addons-total-display" class="font-semibold text-[#f3e5ab]">+₹0</span>
+                </div>
+
+                <div id="coupon-discount-row" class="hidden flex justify-between text-xs text-emerald-400 font-semibold">
+                  <span id="coupon-discount-label">MMT Promo Discount:</span>
+                  <span id="coupon-discount-display">-₹0</span>
+                </div>
+
+                <div class="flex justify-between text-xs text-slate-400">
+                  <span>Luxury Hospitality GST (18% = 9% CGST + 9% SGST):</span>
+                  <span id="gst-total-display" class="font-medium text-slate-300">Itemized in Total</span>
+                </div>
+
+                <div class="flex justify-between text-xs text-slate-400">
+                  <span>Refundable Security Deposit:</span>
+                  <span class="text-slate-300">₹50,000 (100% Refundable)</span>
+                </div>
+
+                <div class="border-t border-white/15 pt-2.5 flex justify-between items-center">
+                  <div>
+                    <span class="text-xs text-slate-300 block">Total Quotation Value</span>
+                    <span class="text-[11px] text-emerald-400 font-medium">Includes 24/7 Security & 100-Acre Safari</span>
+                  </div>
+                  <span id="grand-total-display" class="text-2xl font-black text-[#d4af37] font-serif">₹5,00,000</span>
+                </div>
+              </div>
+
+              <div class="space-y-2 pt-2">
+                <button type="submit" class="btn-gold w-full py-3.5 rounded-xl font-bold text-sm tracking-wide shadow-xl flex items-center justify-center gap-2 hover:scale-[1.01] transition">
+                  <span>Generate Weekend Lease Voucher</span>
+                </button>
+                <button type="button" class="btn-whatsapp-inquiry w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition flex items-center justify-center gap-2">
+                  <span>Send Direct Inquiry on WhatsApp Concierge</span>
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. LOCATION MAP -->
+  <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-12 gap-8 items-center">
+      <div class="lg:col-span-5 space-y-4">
+        <div class="badge-gold px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider inline-block">STRATEGIC HYDERABAD LOCATION</div>
+        <h2 class="text-3xl font-extrabold font-serif text-[#052617]">Minutes Away from HITEC City & Financial District</h2>
+        <p class="text-slate-600 text-sm leading-relaxed">Situated right in the high-growth corridor of Hyderabad near HITEC City, offering complete seclusion and tranquility within 100 green acres without needing to travel hours outside the city.</p>
+        <div class="space-y-3 pt-2 text-xs text-slate-700">
+          <div class="flex items-center justify-between p-3 rounded-xl bg-white border border-slate-200">
+            <span class="font-semibold">Cyber Towers / HITEC City</span>
+            <span class="text-emerald-700 font-bold">12 - 15 Mins</span>
+          </div>
+          <div class="flex items-center justify-between p-3 rounded-xl bg-white border border-slate-200">
+            <span class="font-semibold">Financial District / Gachibowli</span>
+            <span class="text-emerald-700 font-bold">18 - 20 Mins</span>
+          </div>
+          <div class="flex items-center justify-between p-3 rounded-xl bg-white border border-slate-200">
+            <span class="font-semibold">Rajiv Gandhi Intl Airport (RGIA)</span>
+            <span class="text-emerald-700 font-bold">35 Mins via ORR</span>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-xl bg-slate-100 p-8 text-center space-y-4">
+          <div class="w-16 h-16 rounded-2xl bg-emerald-800 text-white flex items-center justify-center mx-auto text-2xl shadow-lg">📍</div>
+          <h3 class="font-serif text-2xl font-bold text-[#052617]">100 Acres of Pure Seclusion in Central Hyderabad</h3>
+          <p class="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto">Full address and GPS coordinates provided privately upon confirmed weekend lease booking for security & discretion.</p>
+          <div class="pt-2">
+            <button class="btn-whatsapp-inquiry btn-emerald px-6 py-2.5 rounded-xl text-xs font-bold inline-flex items-center gap-2">
+              <span>Request Private Location Pin →</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. FOOTER -->
+  <footer class="bg-[#041a0f] text-slate-400 py-16 border-t border-white/10 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8 pb-12 border-b border-white/10">
+        <div class="space-y-3">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-[#d4af37] text-[#052617] flex items-center justify-center font-black">🏰</div>
+            <div>
+              <span class="font-serif font-bold text-base text-white block">JAI KRISHNA RAM</span>
+              <span class="text-[10px] text-[#d4af37] font-semibold block">jaikrishnaram.formhouse.com</span>
+            </div>
+          </div>
+          <p class="text-slate-400 leading-relaxed">Hyderabad’s exclusive 100-acre private farmhouse, 500-buffalo dairy sanctuary, and weekend agritourism estate.</p>
+        </div>
+        <div>
+          <h5 class="font-bold text-white uppercase tracking-wider mb-3">Estate Zones</h5>
+          <ul class="space-y-2">
+            <li><a href="#buffalo-sanctuary" class="hover:text-white transition">50-Acre Buffalo Sanctuary</a></li>
+            <li><a href="#farmhouse-pool" class="hover:text-white transition">Central Farmhouse & Pool</a></li>
+            <li><a href="#farmhouse-pool" class="hover:text-white transition">Rock Waterfalls</a></li>
+            <li><a href="#about-100-acres" class="hover:text-white transition">Flower Fields & Pasture</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold text-white uppercase tracking-wider mb-3">Weekend Lease</h5>
+          <ul class="space-y-2">
+            <li><span>Fee: ₹5,00,000 / Weekend</span></li>
+            <li><span>Saturday 10:00 AM – Sunday 06:00 PM</span></li>
+            <li><span>Entire 100 Acres Private Access</span></li>
+            <li><span>24/7 Security & Concierge</span></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold text-white uppercase tracking-wider mb-3">Contact Concierge</h5>
+          <p class="text-slate-300">HITEC City / Madhapur Corridor, Hyderabad, Telangana</p>
+          <p class="mt-2 text-white font-medium">📞 +91 98765 43210</p>
+          <p class="text-white font-medium">✉️ concierge@jaikrishnaram.formhouse.com</p>
+          <div class="pt-3">
+            <button class="btn-whatsapp-inquiry px-4 py-2 rounded-lg bg-emerald-700 hover:bg-emerald-600 text-white font-semibold transition">WhatsApp Direct Chat</button>
+          </div>
+        </div>
+      </div>
+      <div class="pt-8 flex flex-wrap items-center justify-between gap-4">
+        <p>© 2026 jaikrishnaram.formhouse.com • Jai Krishna Ram Farmhouse. All Rights Reserved.</p>
+        <p class="text-slate-500">Built with HTML5, CSS3, JavaScript & Three.js 3D.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 12. 4K VIDEO MODAL -->
+  <div id="video-modal" class="hidden fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex items-center justify-center p-4 sm:p-6">
+    <div class="max-w-5xl w-full bg-slate-900 rounded-3xl overflow-hidden border border-white/20 shadow-2xl relative text-white" onclick="event.stopPropagation()">
+      <button id="video-modal-close" class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-black/80 hover:bg-red-600 text-white flex items-center justify-center transition border border-white/30 font-bold">✕</button>
+      <div class="relative pt-[56.25%] bg-black">
+        <iframe id="video-modal-iframe" src="" class="absolute inset-0 w-full h-full border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="p-6 bg-slate-900 flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <span id="video-modal-tag" class="badge-dark-gold px-2.5 py-0.5 rounded text-[11px] font-bold uppercase">4K Video</span>
+          <h3 id="video-modal-title" class="font-serif text-xl sm:text-2xl font-bold text-white mt-1">Video Title</h3>
+          <p id="video-modal-desc" class="text-slate-400 text-xs mt-1 max-w-2xl">Description</p>
+        </div>
+        <a href="#weekend-lease" class="btn-gold px-5 py-2.5 rounded-xl text-xs font-bold text-[#052617]">Lease for ₹5,00,000 →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 13. PHOTO LIGHTBOX MODAL -->
+  <div id="photo-modal" class="hidden fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-slate-900 rounded-2xl overflow-hidden border border-white/20 shadow-2xl relative text-white" onclick="event.stopPropagation()">
+      <button id="photo-modal-close" class="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center transition border border-white/20">✕</button>
+      <div class="h-[460px] relative">
+        <img id="photo-modal-img" src="" alt="Photo" class="w-full h-full object-cover" />
+      </div>
+      <div class="p-6 bg-slate-900">
+        <h3 id="photo-modal-title" class="font-serif text-2xl font-bold text-white">Title</h3>
+        <p id="photo-modal-desc" class="text-slate-300 text-sm mt-1">Description</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 14. VOUCHER SUMMARY MODAL -->
+  <div id="voucher-modal" class="hidden fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="max-w-xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl text-slate-800" onclick="event.stopPropagation()">
+      <div class="bg-gradient-to-r from-[#052617] to-[#0a4d2e] p-6 text-white text-center">
+        <span class="w-12 h-12 rounded-full bg-[#d4af37] text-[#052617] font-black text-2xl flex items-center justify-center mx-auto mb-2 shadow-lg">✓</span>
+        <h3 class="font-serif text-2xl font-bold">Weekend Lease Reservation Summary</h3>
+        <p id="voucher-ref-id" class="text-xs text-[#f3e5ab] mt-1">Ref: JKR100-XXXXXX</p>
+      </div>
+      <div class="p-6 sm:p-8 space-y-4">
+        <div class="bg-emerald-50 p-4 rounded-xl border border-emerald-200 text-emerald-900 text-xs">
+          <strong>Thank you, <span id="voucher-guest-name">Guest</span>!</strong> Your request to lease the 100-Acre Farmhouse near HITEC City has been recorded. Our concierge will connect via phone/WhatsApp to confirm.
+        </div>
+        <div class="space-y-2 text-xs border border-slate-200 rounded-xl p-4">
+          <div class="flex justify-between py-1 border-b border-slate-100">
+            <span class="text-slate-500">Reserved Weekend:</span>
+            <span id="voucher-date" class="font-bold text-slate-900">Saturday to Sunday</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-slate-100">
+            <span class="text-slate-500">Guests:</span>
+            <span id="voucher-guests" class="font-bold text-slate-900">15 Guests</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-slate-100">
+            <span class="text-slate-500">Event Purpose:</span>
+            <span id="voucher-event" class="font-bold text-slate-900">Private Retreat</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-slate-100">
+            <span class="text-slate-500">Phone Contact:</span>
+            <span id="voucher-phone" class="font-bold text-slate-900">+91 98765 43210</span>
+          </div>
+          <div class="flex justify-between py-1 border-b border-slate-100">
+            <span class="text-slate-500">VIP Add-ons:</span>
+            <span id="voucher-addons" class="font-bold text-emerald-700">None</span>
+          </div>
+          <div class="flex justify-between pt-2 text-sm font-black text-[#052617]">
+            <span>Total Quotation:</span>
+            <span id="voucher-total" class="text-base text-emerald-800">₹5,00,000</span>
+          </div>
+        </div>
+        <div class="flex gap-3 pt-2">
+          <button class="btn-whatsapp-inquiry btn-gold flex-1 py-3 rounded-xl text-xs font-bold text-[#052617] flex items-center justify-center gap-2">
+            <span>Confirm on WhatsApp</span>
+          </button>
+          <button id="voucher-modal-close" class="px-5 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/soundscape.js"></script>
+  <script src="js/three-scene.js"></script>
+  <script src="js/api-client.js"></script>
+  <script src="js/buffalo-vfx.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

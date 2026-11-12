@@ -1,0 +1,234 @@
+/* HITEC 100 ESTATES - LUXURY AGRITOURISM & FARMHOUSE STYLING */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-deep: #052617;
+  --primary-green: #0a4d2e;
+  --primary-light: #167a48;
+  --gold-accent: #d4af37;
+  --gold-light: #f3e5ab;
+  --gold-glow: rgba(212, 175, 55, 0.35);
+  --water-cyan: #00bcd4;
+  --cream-bg: #fcfbf7;
+  --card-bg: rgba(255, 255, 255, 0.92);
+  --dark-glass: rgba(10, 30, 20, 0.85);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--cream-bg);
+  color: #1e293b;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a4d2e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.07);
+}
+
+.glass-dark {
+  background: rgba(5, 38, 23, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Luxury Gold Button with Shimmer */
+.btn-gold {
+  background: linear-gradient(135deg, #d4af37 0%, #b8860b 100%);
+  color: #052617;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px -5px var(--gold-glow);
+}
+
+.btn-gold:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px -5px rgba(212, 175, 55, 0.5);
+  filter: brightness(1.08);
+}
+
+.btn-gold::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 20%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: rotate(30deg);
+  transition: all 0.75s ease;
+}
+
+.btn-gold:hover::after {
+  left: 120%;
+}
+
+/* Emerald Primary Button */
+.btn-emerald {
+  background: linear-gradient(135deg, #0a4d2e 0%, #052617 100%);
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-emerald:hover {
+  background: linear-gradient(135deg, #10703e 0%, #0a4d2e 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px -8px rgba(10, 77, 46, 0.5);
+}
+
+/* Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f5d77f 0%, #d4af37 50%, #aa771c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Water Ripple Animation */
+@keyframes waterPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 188, 212, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(0, 188, 212, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 188, 212, 0);
+  }
+}
+
+.pulse-water {
+  animation: waterPulse 2.5s infinite;
+}
+
+/* 3D Canvas Container */
+#three-canvas-container {
+  width: 100%;
+  height: 620px;
+  position: relative;
+  background: linear-gradient(180deg, #d9edf7 0%, #eef7fa 100%);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.15);
+}
+
+#three-canvas-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+  outline: none;
+  display: block;
+}
+
+/* 3D UI Overlay HUD */
+.hud-overlay {
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-overlay button, 
+.hud-overlay select,
+.hud-overlay .clickable {
+  pointer-events: auto;
+}
+
+/* Image Card Hover Zoom */
+.img-zoom-container {
+  overflow: hidden;
+}
+
+.img-zoom-container img {
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.img-zoom-container:hover img {
+  transform: scale(1.08);
+}
+
+/* Badge Glow */
+.badge-gold {
+  background: rgba(212, 175, 55, 0.15);
+  color: #996515;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+.badge-dark-gold {
+  background: rgba(212, 175, 55, 0.18);
+  color: #f3e5ab;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+}
+
+/* Audio Wave Visualizer */
+.audio-wave-bar {
+  display: inline-block;
+  width: 3px;
+  background-color: #d4af37;
+  border-radius: 2px;
+  margin: 0 1px;
+  animation: audioWave 1.2s infinite ease-in-out;
+}
+.audio-wave-bar:nth-child(2) { animation-delay: 0.2s; height: 14px; }
+.audio-wave-bar:nth-child(3) { animation-delay: 0.4s; height: 18px; }
+.audio-wave-bar:nth-child(4) { animation-delay: 0.1s; height: 10px; }
+
+@keyframes audioWave {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1.2); }
+}
+
+/* Modal Lightbox Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-content-animated {
+  animation: modalFadeIn 0.3s ease-out forwards;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+  #three-canvas-container {
+    height: 480px;
+  }
+}
